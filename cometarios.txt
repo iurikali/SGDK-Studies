@@ -1,0 +1,3 @@
+-------Resolução------
+- H40 (40 tiles) 320x224, 80 sprites por frame, 20 por scanline
+- H32 256x224, 64 sprites e 16 por scan (VDP_setScreenWidth256();) 

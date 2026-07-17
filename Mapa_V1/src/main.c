@@ -12,6 +12,8 @@ Map *level_1_map;
 
 int scroll_x = 0;
 
+
+
 int main()
 {
     //VRAM tem 64KB
@@ -34,9 +36,33 @@ int main()
 
     MAP_scrollTo(level_1_map, scroll_x, 768);
 
+
+    //Desenhando numeros na tela
+    u8 n_8bits = 0;
+    char text_num[4];
+
+    //Fix16 eh o "float" de 16bits
+    //6 bits para mantissa
+    fix16 n_float16 = FIX16(0);
+    char text_float16[11];
+    //Geralmente fix32 eh utilizado no movimento de personagem ou camera
+    //Pq tem mais bits para a parte inteira
+
+
+
     //VDP_drawText("Hello Sega!!", 10,13);
     while(1)
     {
+        n_8bits+= 1;
+        //Desenhando numeros na tela
+        sprintf(text_num, "%3i", n_8bits);
+        VDP_drawTextBG(BG_A, text_num, 0, 1);
+
+        n_float16 += FIX16(0.1);
+        //Desenhando numeros na tela
+        sprintf(text_float16, "%10i", F16_toInt(n_float16));
+        VDP_drawTextBG(BG_A, text_float16, 0, 4);
+
         scroll_x += 1;
 
         MAP_scrollTo(level_1_map, scroll_x, 768);   
