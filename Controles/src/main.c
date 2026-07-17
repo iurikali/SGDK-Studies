@@ -117,7 +117,6 @@ int main()
     int hscroll_offset = 0;
     int hscroll_offset_fore = 0;
     VDP_setScrollingMode(HSCROLL_PLANE, VSCROLL_PLANE);
-    
 
     //Sprites
     SPR_init();

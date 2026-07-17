@@ -4,8 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "/home/kali/Codigos/MD/SGDK/inc/**",
-                "/home/kali/Codigos/MD/SGDK/res/**"
+                "/home/kali/Codigos/SGDK-Studies/SGDK/inc/**",
+                "/home/kali/Codigos/SGDK-Studies/SGDK/res/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
