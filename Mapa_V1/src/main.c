@@ -63,7 +63,7 @@ int main()
         sprintf(text_float16, "%10i", F16_toInt(n_float16));
         VDP_drawTextBG(BG_A, text_float16, 0, 4);
 
-        scroll_x += 1;
+        scroll_x += 4;
 
         MAP_scrollTo(level_1_map, scroll_x, 768);   
         //For versions prior to SGDK 1.60 use VDP_waitVSync instead.

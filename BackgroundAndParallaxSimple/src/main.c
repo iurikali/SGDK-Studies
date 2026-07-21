@@ -52,11 +52,11 @@ int main()
     while(1)
     {
         //Scroll back
-        /*VDP_setHorizontalScroll(BG_B, hscroll_offset);
+        VDP_setHorizontalScroll(BG_B, hscroll_offset);
         hscroll_offset--;
         //Scroll fore
         VDP_setHorizontalScroll(BG_A, hscroll_offset_fore);
-        hscroll_offset_fore-= 2;*/
+        hscroll_offset_fore-= 2;
         
         SPR_update();
 
