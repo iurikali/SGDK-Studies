@@ -6,3 +6,7 @@
 - Usa 9 bits no total para o rgb (3 bits para R, 3 para G e 3 para B)
 - Usar paletas que pulam de 32 em 32 (https://www.youtube.com/watch?v=wsSXSyjpW8M&list=PL1xqkpO_SvY2_rSwHTBIBxXMqmek--GAb&index=20)
 - Acho que se carregar o background como imagem ele fica preso em 512x256, mas se carregar como MAP tu consegue ter mais espaço
+- PAL0 tem 16 cores, PAL1,2,3 tem 15 cores
+- Tem como misturar paletas no mesmo background, mas o video usa o 16tile que não tem no linux
+- Tem um outro video, mas usa o aseprite que eu não tenho (ainda) (https://www.youtube.com/watch?v=uvsgg4YbJRk)
+- No 16tile tem como colocar prioridade em diferentes tiles no background
