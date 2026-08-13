@@ -10,3 +10,10 @@
 - Tem como misturar paletas no mesmo background, mas o video usa o 16tile que não tem no linux
 - Tem um outro video, mas usa o aseprite que eu não tenho (ainda) (https://www.youtube.com/watch?v=uvsgg4YbJRk)
 - No 16tile tem como colocar prioridade em diferentes tiles no background
+
+---SFX---
+- Para sfx tem que ser em .wav
+- Musica pode usar o DefleMask_Legacy_Linux e nesse video tem um link para samples pra usar no programa
+https://www.youtube.com/watch?v=y69ZSqxbCoo&list=PL1xqkpO_SvY2_rSwHTBIBxXMqmek--GAb&index=34
+- no audacity mudar a frequenica para 16000Hz, deixa no audio no mono
+- exportar como .wav unsigned 8-bit PCM
